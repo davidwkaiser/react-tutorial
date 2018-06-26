@@ -1,3 +1,13 @@
+This is a react app I'm building based on a tutorial at   
+
+https://scotch.io/tutorials/learning-react-getting-started-and-concepts  
+
+See my portfolio at http://davidwkaiser.squarespace.com  
+See my LinkedIn at http://linkedin.com/in/davidwkaiser  
+
+********
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
