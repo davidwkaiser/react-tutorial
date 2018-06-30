@@ -15,13 +15,13 @@ var createReactClass = require('create-react-class')
 var MyComponent = createReactClass({
   render: function (){
     return (
-      <h1>Hello, World!</h1>
+      <h1>Hello, {this.props.name}!</h1>
     );
   }
 })
 
 ReactDOM.render(
-  <MyComponent/>,
+  <MyComponent name="Handsome" />,
   document.getElementById('myDiv')
   );
 
