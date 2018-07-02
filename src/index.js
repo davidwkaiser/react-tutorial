@@ -13,9 +13,14 @@ var createReactClass = require('create-react-class')
     // );
 
 var MyComponent = createReactClass({
+  getInitialState: function(){
+    return{
+      count: 5
+    }
+  },
   render: function (){
     return (
-      <h1>Hello, {this.props.name}!</h1>
+      <h1>state.count - {this.state.count}</h1>
     );
   }
 })
