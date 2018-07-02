@@ -12,21 +12,29 @@ var createReactClass = require('create-react-class')
     //     document.getElementById('myDiv')
     // );
 
-var MyComponent = createReactClass({
+var Counter = createReactClass({
+  incrementCount: function(){
+    this.setState({
+      count: this.state.count+1
+    });
+  },
   getInitialState: function(){
     return{
-      count: 5
+      count: 0
     }
   },
   render: function (){
     return (
-      <h1>state.count - {this.state.count}</h1>
+      <div class="my-component">
+        <h1>Count: {this.state.count}</h1>
+        <button type="button" onClick={this.incrementCount}>Increment</button>
+      </div>
     );
   }
 })
 
 ReactDOM.render(
-  <MyComponent name="Handsome" />,
+  <Counter  />,
   document.getElementById('myDiv')
   );
 
