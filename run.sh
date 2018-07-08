@@ -1,1 +1,1 @@
-docker run -p 3000:3000 docker_tutorial:initial
+docker run -p 3000:3000 react_tutorial:initial

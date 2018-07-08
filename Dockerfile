@@ -10,20 +10,18 @@ ENV PATH=$PATH:/node_modules/.bin
 #Run necessary install steps
 RUN npm install -g create-react-app
 RUN create-react-app react-tutorial
+RUN npm install
 
 #Copy files into app
-RUN mkdir react-tutorial/public
-RUN mkdir react-tutorial/src
-COPY public/* /react-tutorial/public
-COPY src/* /react-tutorial/src
-COPY *.json /react-tutorial
+COPY public/* /react-tutorial/public/
+COPY src/* /react-tutorial/src/
+COPY *.json /react-tutorial/
 
 #Set port
 EXPOSE 3000
 
 #Prep launch
-RUN cd react-tutorial
-RUN npm start
+CMD cd react-tutorial && npm start
 
 
 
