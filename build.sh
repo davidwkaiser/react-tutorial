@@ -1,1 +1,1 @@
-docker build .
+docker build -t "react_tutorial:initial" .
