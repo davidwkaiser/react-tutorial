@@ -9,6 +9,8 @@ ENV PATH=$PATH:/node_modules/.bin
 
 #Run necessary install steps
 RUN npm install --save create-react-app
+RUN npm install --save create-react-class
+#RUN npm install --save react-input-autosize@1.1.0
 RUN create-react-app react-tutorial
 
 #Copy files into app

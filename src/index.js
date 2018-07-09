@@ -5,7 +5,6 @@ import registerServiceWorker from './registerServiceWorker';
 
 let createReactClass = require('create-react-class');
 
-
 var FilteredList = createReactClass({
   filterList: function(event){
     var updatedList = this.state.initialItems;
@@ -41,7 +40,7 @@ var FilteredList = createReactClass({
           </div>
       );
   }
-})
+});
 
 var List = createReactClass({
   render: function(){
