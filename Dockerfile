@@ -20,6 +20,8 @@ COPY *.json /react-tutorial/
 #Update everything
 RUN cd /react-tutorial/
 RUN npm install
+RUN ls
+RUN ls /node_modules
 
 #Set port
 EXPOSE 3000
