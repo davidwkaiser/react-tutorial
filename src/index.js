@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CreateReactClass from 'create-react-class';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
+let createReactClass = require('create-react-class');
 
-var FilteredList = CreateReactClass({
+
+var FilteredList = createReactClass({
   filterList: function(event){
     var updatedList = this.state.initialItems;
     updatedList = updatedList.filter(function(item){
@@ -42,7 +43,7 @@ var FilteredList = CreateReactClass({
   }
 })
 
-var List = CreateReactClass({
+var List = createReactClass({
   render: function(){
     return(
       <ul>

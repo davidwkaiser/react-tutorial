@@ -8,7 +8,7 @@ ENV PATH=$PATH:/node_modules/.bin
 #WORKDIR /react-tutorial
 
 #Run necessary install steps
-RUN npm install -g create-react-app
+RUN npm install --save create-react-app
 RUN create-react-app react-tutorial
 
 #Copy files into app
@@ -16,7 +16,9 @@ COPY public/* /react-tutorial/public/
 COPY src/* /react-tutorial/src/
 COPY *.json /react-tutorial/
 
+
 #Update everything
+RUN cd /react-tutorial/
 RUN npm install
 
 #Set port
