@@ -9,7 +9,8 @@ Hey it all works!
 
 For my next trick I think I'm going to try to put it all in a Docker container...
 
-DONE! to make this work:
+DONE, I have stuffed the Genie into a bottle (container, whatever)!
+To make this work:
 Clone from GIT
 run build.sh
 run run.sh
