@@ -9,13 +9,13 @@ Hey it all works!
 
 For my next trick I think I'm going to try to put it all in a Docker container...
 
-DONE, I have stuffed the Genie into a bottle (container, whatever)!
-To make this work:
-Clone from GIT
-run build.sh
-run run.sh
-check port 3000!
-
+DONE, I have stuffed the Genie into a bottle (container, whatever)!<br/>
+To make this work:<br/>
+Clone from GIT<br/>
+run build.sh<br/>
+run run.sh<br/>
+check port 3000!<br/>
+<br/>
 ********
 
 
