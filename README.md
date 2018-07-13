@@ -12,9 +12,9 @@ For my next trick I think I'm going to try to put it all in a Docker container..
 DONE, I have stuffed the Genie into a bottle (container, whatever)!<br/>
 To make this work:<br/>
 Clone from GIT<br/>
-run build.sh<br/>
-run run.sh<br/>
-check port 3000!<br/>
+./build.sh<br/>
+./run.sh<br/>
+browse to localhost:3000<br/>
 <br/>
 ********
 
